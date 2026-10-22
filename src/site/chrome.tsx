@@ -26,10 +26,11 @@ export function Chrome({ children }: { children: ReactNode }) {
             </svg>
           </button>
           <nav id="site-menu" className="nav" data-menu-panel aria-label="Main">
-            <Link to="/shop">Shop</Link>
-            <Link to="/size-help">Size Help</Link>
-            <a href="/#contacts">Contact</a>
-            <Link to="/shop" className="nav-cta">Shop now</Link>
+            <a href="/#contacts">Contacts</a>
+            <a href="/#about">About Us</a>
+            <a href="/#faqs">FAQs</a>
+            <Link to="/size-help">Size help</Link>
+            <Link to="/shop" className="nav-cta">Shop</Link>
           </nav>
         </div>
       </header>
@@ -39,9 +40,11 @@ export function Chrome({ children }: { children: ReactNode }) {
           <Image src={LOGO} alt="Primalora Jewelry" width={150} height={150} className="footer-logo" />
           <p className="footer-line">Primalora. Quiet light, worn close.</p>
           <nav className="footer-nav" aria-label="Footer">
+            <a href="/#contacts">Contacts</a>
+            <a href="/#about">About Us</a>
+            <a href="/#faqs">FAQs</a>
+            <Link to="/size-help">Size help</Link>
             <Link to="/shop">Shop</Link>
-            <Link to="/size-help">Size Help</Link>
-            <a href="/#contacts">Contact</a>
           </nav>
         </div>
       </footer>
