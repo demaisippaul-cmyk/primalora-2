@@ -3,8 +3,6 @@ import { Image } from "../image";
 import { Chrome, IMG } from "./chrome";
 import { ContactForm } from "./contact-form";
 
-const GIFT = "/generated-assets/6ab7584d3efac11597f17ff855dfdd5ea6ed61f8a162300c80057e81e66aeb81.webp";
-
 const feels = [
   ["Effortless.", "It goes with the white shirt and the quiet Tuesday. It goes with the dress and the big night. You put it on and you’re done."],
   ["Noticed, never loud.", "People won’t ask what you’re wearing. They’ll ask where you found it."],
@@ -64,7 +62,7 @@ export function Home() {
             <h2>Give something she’ll keep.</h2>
             <p>Wrapped in quiet elegance, ready to become someone’s favorite thing.</p>
           </div>
-          <Image src={GIFT} alt="Cream gift box tied with satin ribbon" width={640} height={480} className="gift-img" />
+          <Image src={IMG.pearl} alt="Pearl pendant and earrings set" width={640} height={640} className="gift-img" />
         </section>
 
         <section id="contacts" className="contact wrap">
