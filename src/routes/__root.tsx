@@ -27,7 +27,9 @@ export const Route = createRootRoute({
       { name: "twitter:site", content: "@joinfoundable" },
     ],
     links: [
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:ital,wght@0,300..700;1,300..700&display=swap" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500&display=swap" },
       { rel: "icon", href: "/generated-assets/9b04f10d403456a5dc17495d1e558b3c412862e34be805faae06e263a2668920.png", type: "image/png" },
     ],
   }),
