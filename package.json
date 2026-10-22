@@ -1,0 +1,60 @@
+{
+  "name": "foundable-website",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsr generate && tsc --noEmit",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "4.0.83",
+    "@ai-sdk/react": "4.0.130",
+    "@hookform/resolvers": "5.9.1",
+    "@supabase/supabase-js": "2.116.0",
+    "@tanstack/react-router": "1.170.41",
+    "@tanstack/react-start": "1.168.60",
+    "ai": "7.0.127",
+    "chart.js": "4.5.1",
+    "clsx": "2.1.1",
+    "date-fns": "4.4.0",
+    "embla-carousel-autoplay": "8.6.0",
+    "embla-carousel-react": "8.6.0",
+    "lenis": "1.3.26",
+    "lucide-react": "1.48.0",
+    "motion": "13.4.4",
+    "radix-ui": "1.6.7",
+    "react": "19.2.8",
+    "react-chartjs-2": "5.3.1",
+    "react-dom": "19.2.8",
+    "react-hook-form": "7.88.0",
+    "sonner": "2.0.8",
+    "three": "0.186.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@lovable.dev/vite-tanstack-config": "2.25.1",
+    "@tailwindcss/vite": "4.3.3",
+    "@tanstack/router-cli": "1.167.38",
+    "@types/node": "24.13.6",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "6.0.5",
+    "drizzle-kit": "0.31.11",
+    "drizzle-orm": "0.45.4",
+    "esbuild": "0.28.2",
+    "nitro": "3.0.260603-beta",
+    "typescript": "5.9.3",
+    "vite": "8.2.4",
+    "vite-tsconfig-paths": "6.1.1"
+  },
+  "overrides": {
+    "@esbuild-kit/esm-loader": "npm:tsx@4.23.13"
+  }
+}
